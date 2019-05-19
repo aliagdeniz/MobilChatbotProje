@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/editbox_background_normal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/messageAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="denem"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/messageContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:paddingTop="0dp"
+            android:text="deneme" />
+    </LinearLayout>
+
+</LinearLayout>
